@@ -1,0 +1,78 @@
+<html>
+
+
+<head>
+    
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/index-style.css"> <!--I am NOT using it-->
+
+</head> 
+
+
+
+<body>
+    
+<!-- ## Excercies (To Apply) ,  Represent as CRUD -->
+
+<div class="container py-5">
+
+<label>productName :</label>
+<input type="text" id="productNameInput" class="my-2 form-control">
+
+<label>productPrice :</label>
+<input type="number" id="productPriceInput" class="my-2 form-control">
+
+<label>productCategory :</label>
+<input type="text" id="productCategoryInput" class="my-2 form-control">
+
+
+<label>productDescription :</label>
+<textarea  id="productDescriptionInput" class="my-2 form-control">
+ </textarea>
+
+
+<button onclick="addProduct()"  class="btn btn-info my-5">Add Product</button>
+
+</div>
+ 
+
+<div class="container">
+
+  <table class="table text-center">
+
+    <thead>
+      
+      <th>productName</th>
+      <th>productPrice</th>
+      <th>productCategory</th>
+      <th>productDescription</th>
+
+
+    </thead>
+
+     <tbody id="tableBody">
+
+
+     </tbody>
+
+  </table>
+
+
+</div>
+
+
+<script src="js/second.js"></script>
+<script src="js/Helal.js"></script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
